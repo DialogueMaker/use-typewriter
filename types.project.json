@@ -1,0 +1,13 @@
+{
+  "name": "use-typewriter",
+  "tree": {
+    "$className": "DataModel",
+    "use-typewriter": {
+      "$path": "Packages",
+      "$ignoreUnknownInstances": true,
+      "use-typewriter": {
+        "$path": "src"
+      }
+    }
+  }
+}

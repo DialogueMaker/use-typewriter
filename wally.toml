@@ -1,0 +1,13 @@
+[package]
+name = "dialoguemaker/use-typewriter"
+version = "0.1.0-patch-2"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+repository = "https://github.com/DialogueMaker/use-typewriter"
+authors = ["Christian Toney <christian.toney@beastslash.com>"]
+include = ["src", "src/**/*.lua", "wally.toml", "default.project.json"]
+exclude = ["**"]
+
+[dependencies]
+dialogue-types = "dialoguemaker/dialogue-types@0.1.0-patch-2"
+react = "jsdotlua/react@17.2.1"
