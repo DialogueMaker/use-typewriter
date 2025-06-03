@@ -2,9 +2,9 @@
 
 local packages = script.Parent.roblox_packages;
 local React = require(packages.react);
-local IDialogue = require(packages.dialogue_types);
+local DialogueMakerTypes = require(packages.dialogue_maker_types);
 
-type Dialogue = IDialogue.Dialogue;
+type Dialogue = DialogueMakerTypes.Dialogue;
 
 export type TypewriterProperties = {
   text: string;
